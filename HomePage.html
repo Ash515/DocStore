@@ -2,21 +2,21 @@
     <head>
         <title> Online File Manager</title>
     <link rel="stylesheet" href="NewDrive.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script type="text/javascript" src=https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-     <header id="head">   
-        <input type="text" name="search" id="search_box" placeholder="search...">
-            <button id="ser_sub" type="submit">Find</button>
-     </header> <br>
-    <div id="left_sider">
+    <header id="head"> 
+            <h1 id="logo">Online File Managment</h1> 
+           
+            
+        </header>
+    <section>
+        <div id="left_sider">
         <header id="nav_head"> 
-         File Manager</header>
+        Online - FM</header> <br>
         <div id="nav">
-          
-            <div class="menu">   
+          <div class="menu">   
             <li class="item" id="profile"> 
             <a href="#profile" class="h_name"><i class="material-icons">account_circle</i> Profile</a>
              <div class="slide">
@@ -38,9 +38,9 @@
                 Documents
             </a>  
             <div class="slide">
-                    <a href="#"><i class="material-icons">note</i>Word</a>
-                    <a href="#"><i class="material-icons">insert_drive_file</i>PDF</a>
-                    <a href="#"><i class="material-icons">attachment</i>ZIP</a>
+                    <a href="#"><i class="material-icons">note</i> Word</a>
+                    <a href="#"><i class="material-icons">insert_drive_file</i> PDF</a>
+                    <a href="#"><i class="material-icons">attachment</i> ZIP</a>
                  </div>
                 </li>
                 <li class="item" id="Photos"> 
@@ -51,13 +51,26 @@
                         <a href="#"><i class="material-icons">upload</i>Upload Photos</a>
                      </div></li>
             </a></li>
+            <img id="img" src="logo.png" height="100%" width="100%" alt="">
             </div>
-        
+                     <br><hr>
+         <div id="left_sider2">
+            
+         </div> <br>
         </div>
-
   
-    </div>
-    <div id="center"></div>    
+        </div>
+    </section>
+    <div id="center">
+        <input type="text" name="search" id="search_box" placeholder=" search in FM...">
+        <button id="ser_sub" type="submit">Find</button>
+            <hr>
+        <div id="cen1"> </div> <div id="cen1"></div> <div id="cen1"></div> <hr>
+        <h2 style="margin: 20px 0 0 100px;">Folders</h2>
+        <div id="fol"> </div> <div id="fol"> </div> <div id="fol"></div> <div id="fol"></div><hr>
+        <h2 style="margin: 20px 0 0 100px;">Files</h2>
+       <div id="file"> </div> <div id="file"> </div> 
+        </div>    
 </body>
 </html>
 
