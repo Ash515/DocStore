@@ -5,4 +5,6 @@ Online document storage application used to access our documents anywhere at any
 - Frontend - JavaScript, Html, Css
 - Backend - NodeJS
 
-# Develo
+# Developers
+[Ashwin Kumar Ramaswamy](https://github.com/Ash515)
+[HariharaSudhan S P](https://github.com/harihasu16)
